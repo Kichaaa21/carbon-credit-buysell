@@ -1,0 +1,12 @@
+.buy {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on small screens */
+  
+    /* Media Query for Tablets and Larger Screens */
+    @media screen and (min-width: 768px) {
+      flex-direction: row; /* Restore horizontal layout for larger screens */
+      justify-content: center; /* Center items horizontally */
+      gap: 20px; /* Add gap between items */
+    }
+  }
+  

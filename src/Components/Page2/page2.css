@@ -1,0 +1,39 @@
+.page2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 10%;
+}
+
+.content {
+  flex: 1;
+  padding: 1rem;
+}
+
+.message {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+
+
+.learn-more {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.gif-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.floating-gif {
+  max-width: 100%;
+  max-height: 100%;
+}
